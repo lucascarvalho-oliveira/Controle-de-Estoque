@@ -62,12 +62,13 @@ public class estoque {
 						if(op == 1) {
 							System.out.println("Quanto será adicionado ?");
 							p.add_produto(sc.nextInt());
-							System.out.println("Estoque ataulizado.");
+							System.out.println("Estoque ataulizado.\n");
 						}else if(op == 2) {
 							System.out.println("Quanto será removido ?");
 							p.remove_produto(sc.nextInt());
-							System.out.println("Estoque ataulizado.");
+							System.out.println("Estoque ataulizado.\n");
 						}else {
+							System.out.println();
 							break;
 						}
 					}
@@ -79,12 +80,12 @@ public class estoque {
 				break;
 				
 			case 3:
-				System.out.println("Relatorio do estoque\n");
+				System.out.println("\n---------Relatorio do estoque---------\n");
 				
 				for(produtos p: listaProdutos) {
-					System.out.printf("produto de nome %s | valor unitario de %.2f | quantidade no estoque %d | valor total no estoque %.2f%n", p.nome, p.valor, p.quantidade, p.valor_estoque());
+					System.out.printf("produto de nome %s | valor unitario R$ %.2f | quantidade no estoque %d | valor total no estoque R$ %.2f%n", p.nome, p.valor, p.quantidade, p.valor_estoque());
 				}
-				System.out.println();
+				System.out.println("\n--------------------------------------\n");
 				break;
 			}
 		}

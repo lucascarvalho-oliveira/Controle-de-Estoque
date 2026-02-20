@@ -16,7 +16,7 @@ Este é um sistema simples de controle de estoque desenvolvido em Java. Ele perm
 
 ## Tecnologias Utilizadas
 - Java 25
-- Programação Orientada a Objetos (POO)
+- Programação Orientada a Objetos `(POO)`
 - Estruturas de dados em memória (ex: List)
 
 ## Estrutura do Projeto
@@ -30,9 +30,9 @@ git clone https://github.com/lucascarvalho-oliveira/Controle-de-Estoque.git
 cd Controle-de-Estoque
 2. Compilar o projeto<br>
 No terminal, execute:<br>
-´javac -d bin src/**/*.java
+`javac -d bin src/**/*.java`
 3. Executar o sistema<br>
-java -cp bin main.Main
+`java -cp bin main.Main`
 
 ## Objetivo do Projeto
 - Aplicar conceitos de POO

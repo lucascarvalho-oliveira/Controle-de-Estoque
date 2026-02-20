@@ -30,7 +30,7 @@ git clone https://github.com/lucascarvalho-oliveira/Controle-de-Estoque.git
 cd Controle-de-Estoque
 2. Compilar o projeto<br>
 No terminal, execute:<br>
-javac -d bin src/**/*.java
+´javac -d bin src/**/*.java
 3. Executar o sistema<br>
 java -cp bin main.Main
 

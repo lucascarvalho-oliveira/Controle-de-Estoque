@@ -20,18 +20,18 @@ Este é um sistema simples de controle de estoque desenvolvido em Java. Ele perm
 - Estruturas de dados em memória (ex: List)
 
 ## Estrutura do Projeto
-src/
-├── main/        # Classe principal (execução do sistema)
-├── produtos/    # Classe Produto
+src/ <br>
+├── main/        # Classe principal (execução do sistema) <br>
+├── produtos/    # Classe Produto <br>
 
 ## Como Executar
-1. Clonar o repositório
+1. Clonar o repositório <br>
 git clone https://github.com/lucascarvalho-oliveira/Controle-de-Estoque.git
 cd Controle-de-Estoque
-2. Compilar o projeto
-No terminal, execute:
+2. Compilar o projeto<br>
+No terminal, execute:<br>
 javac -d bin src/**/*.java
-3. Executar o sistema
+3. Executar o sistema<br>
 java -cp bin main.Main
 
 ## Objetivo do Projeto

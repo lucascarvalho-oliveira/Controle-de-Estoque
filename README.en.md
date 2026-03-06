@@ -63,11 +63,15 @@ During the development of this project, the following concepts were applied:
 
 ## Project Structure
 
+```
 src/
-├── main/           # Entry point (execution)
+│
+├── main/                # Entry point (execution)
 │   └── Main.java
-└── produtos/       # Data model and business rules
+│
+└── produtos/            # Data model and business rules
     └── Produto.java
+```
 
 ## How to Run the Project
 
